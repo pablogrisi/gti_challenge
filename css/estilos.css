@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+body{
+	/*Tirando as margens da pagina*/
+	margin: 0px;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	/*max-width: 1360px;*/
+
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/banner.jpg);
+	background-size: cover;
+}
+
+header img{
+	margin-top: 30px;
+
+}
+
+
+.container{
+	width: 1024px;
+	margin: 0px auto;
+
+}
+
+
+
+.barrinha{
+	color: white;
+	background-color: rgba(0,0,0,.4);
+	border-bottom: 2px solid rgb(0,0,0);
+	overflow: hidden;
+}
+
+nav {
+	float: right;
+
+}
+
+nav li{
+	display: inline-block;
+	padding: 15px;
+}
+nav li a{
+	font-size: 18px;
+	font-weight: bold;
+}
+a,
+a:hover,
+a:focus,
+a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	margin-top: 220px;
+	padding-bottom: 50px;
+	text-shadow: 1px 1px 2px #000;
+}
+.container1{
+	text-align: center;
+}
+
+.container1 img{
+	padding-right: 15px;
+}
+.container1 button{
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000;
+	background-color: transparent;
+	border: 3px #fff solid;
+	font-size: 25px;
+	color: #fff;
+	padding: 1%;
+	width: 280px;
+	cursor: pointer;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 300px;
+	margin-top: 0px;
+}
+.primeira{
+	margin-top: 0px;
+	overflow: hidden;
+}	
+
+.primeira p{
+	text-align: justify;
+}
+
+.pc{
+	float:left;
+	margin-left: -60px;
+}
+
+.titulo,
+.titulo1{
+	font-size: 35px;
+	color: #f16529;
+	text-align: center;
+	letter-spacing: 10px;
+	word-spacing: 10px;
+}
+
+.titulo1{
+	padding-top: 20px;
+	border-top: 2px solid #e0e4ea;
+}
+
+section ul{
+	display: inline-block;
+	list-style-type: none;	 
+}
+
+section ul li{
+	padding: 10px;
+}
+.texto1{
+	margin-left: auto;
+	margin-right: auto;
+}
+.segunda,
+.terceira{
+	display: flex;
+	flex-wrap: wrap;	
+	box-sizing: border-box; 
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.e1,
+.e2,
+.e3,
+.e4{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	box-shadow: 4px 4px 1px #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	/*height: auto;*/
+}
+
+.segunda .c1{
+	background-color: #d65b43;
+	
+}
+.segunda .c2{
+	background-color: #d65b43;
+	
+}
+
+.segunda .c3{
+	background-color: #47b7e6;
+}
+
+.segunda .c4{
+	background-color: #f3ca4b;
+}
+
+.segunda div figure,
+.terceira div figure{
+	text-align: center;
+}
+
+figcaption p{
+	margin-bottom: -10px;
+	word-spacing: 6px;
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+
+.d1{
+	font-size: 20px;
+	color: #333a4c;
+	font-weight: 500;
+	padding-top: 15px;
+	margin-top: 28px;
+	background-color: #fff;
+	text-align: center;
+}
+.d3{
+	font-size: 20px;
+	color: #333a4c;
+	font-weight: 500;
+	padding-top: 15px;
+	margin-top: 35px;
+	background-color: #fff;
+	text-align: center;
+
+}
+.d4{
+	font-size: 20px;
+	color: #333a4c;
+	font-weight: 500;
+	padding-top: 15px;
+	margin-top: 10px;
+	background-color: #fff;
+	text-align: center;
+}
+.texto4{
+	padding-top: 0px;
+}
+
+.botao{
+	background-color: #ff7f00;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	border-style: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.ver1{
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: none;
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+	
+
+}
+
+.ver{
+	text-align: center;
+	/*margin-left: 50%;*/
+	background-color: #000;
+	color: white;
+	font-size: 20px;
+	border-style: none;
+	border-radius: 6px;
+	padding: 10px 80px;
+	margin-top: 50px;
+	cursor: pointer;
+	letter-spacing: 3px;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px 0.3px #d9d9d9;
+}
+
+.terceira .e1{
+	background-color: #b21300;
+}
+.terceira .e2,
+.e4{
+	background-color: #a9313e;
+}
+
+.terceira .e3{
+	background-color: #8a2bff;
+}
+.botao2{
+	background-color: #a72d3a;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	border-style: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.titulo2{
+	font-size: 35px;
+	color: #a72d3a;
+	text-align: center;
+	letter-spacing: 10px;
+	word-spacing: 10px;
+	border-top: 2px solid #e0e4ea;
+	padding-top: 20px;
+}
+footer{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px;
+	margin-top: 0px;
+	/*margin: -15px;*/
+	text-align: center;
+	background-color: #161310;
+	color: #fff;
+}
